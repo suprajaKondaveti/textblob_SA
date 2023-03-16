@@ -18,7 +18,11 @@ if rad=="Home":
     st.title("SENTIMENT ANALYSIS")
     st.image("SAA.jpg")
     st.text(" ")
-if rad=="Sentiment Analysis":
+    st.text("Sentiment analysis, also referred to as opinion mining, is an approach")
+    st.text("to natural language processing (NLP) that identifies the emotional tone")
+    st.text("behind a body of text. This is a popular way for organizations to determine")
+    st.text("and categorize opinions about a product, service or idea.")
+
 with st.expander('Analyze Text'):
     text = st.text_input('Text here: ')
     if text:
