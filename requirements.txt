@@ -1,6 +1,7 @@
 altair==4.2.0
 attrs==22.1.0
 beautifulsoup4==4.11.1
+plotly_express==0.4.0
 blinker==1.5
 cachetools==5.2.0
 certifi==2022.9.24
@@ -27,6 +28,8 @@ joblib==1.2.0
 jsonschema==4.16.0
 lxml==4.9.1
 MarkupSafe==2.1.1
+matplotlib==3.5.2
+matplotlib
 newspaper3k==0.2.8
 nltk==3.7
 numpy==1.23.3
