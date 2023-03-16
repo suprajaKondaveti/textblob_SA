@@ -88,9 +88,9 @@ if rad=="Sentiment Analysis":
                 mime='text/csv',
             )
 if rad=="Results":
-    st.image("SAA1.jpg")
+    st.image("1.","SAA1.jpg")
     st.text(" ")
     st.text(" ")
     st.text(" ")
     st.text(" ")
-    st.image("SAA2.jpg")
+    st.image("2.","SAA2.jpg")
