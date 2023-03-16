@@ -14,9 +14,11 @@ nltk.download('stopwords')
 sw=nltk.corpus.stopwords.words("english")
 
 rad=st.sidebar.radio("Navigation",["Home","Sentiment Analysis"])
-
-st.title("SENTIMENT ANALYSIS")
-st.image("SAA.jpg")
+if rad=="Home":
+    st.title("SENTIMENT ANALYSIS")
+    st.image("SAA.jpg")
+    st.text(" ")
+if rad=="Sentiment Analysis":
 with st.expander('Analyze Text'):
     text = st.text_input('Text here: ')
     if text:
