@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 st.header('Sentiment Analysis')
 st.title("SENTIMENT ANALYSIS")
-st.image("SA.jpg")
+st.image("SAA.jpg")
 st.text(" ")
 with st.expander('Analyze Text'):
     text = st.text_input('Text here: ')
