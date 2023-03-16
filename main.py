@@ -90,4 +90,7 @@ if rad=="Sentiment Analysis":
 if rad=="Results":
     st.image("SAA1.jpg")
     st.text(" ")
+    st.text(" ")
+    st.text(" ")
+    st.text(" ")
     st.image("SAA2.jpg")
