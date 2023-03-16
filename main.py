@@ -2,11 +2,15 @@ from textblob import TextBlob
 import pandas as pd
 import streamlit as st
 import cleantext
+import streamlit as st
 import plotly.express as px
 
 import matplotlib.pyplot as plt
 
 st.header('Sentiment Analysis')
+st.title("SENTIMENT ANALYSIS")
+st.image("SA.jpg")
+st.text(" ")
 with st.expander('Analyze Text'):
     text = st.text_input('Text here: ')
     if text:
