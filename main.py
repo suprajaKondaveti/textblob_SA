@@ -4,8 +4,16 @@ import streamlit as st
 import cleantext
 import streamlit as st
 import plotly.express as px
-
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem.porter import PorterStemmer
 import matplotlib.pyplot as plt
+nltk.download('punkt')
+nltk.download('stopwords')
+sw=nltk.corpus.stopwords.words("english")
+
+rad=st.sidebar.radio("Navigation",["Home","Sentiment Analysis"])
 
 st.title("SENTIMENT ANALYSIS")
 st.image("SAA.jpg")
