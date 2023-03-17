@@ -38,9 +38,9 @@ if rad=="Sentiment Analysis":
                  st.write('Sentiment: Neutral')
     
     
-        pre = st.text_input('Clean Text: ')
-        if pre:
-            st.write(cleantext.clean(pre, clean_all= False, extra_spaces=True ,stopwords=True ,lowercase=True ,numbers=True , punct=True))
+        #pre = st.text_input('Clean Text: ')
+        #if pre:
+            #st.write(cleantext.clean(pre, clean_all= False, extra_spaces=True ,stopwords=True ,lowercase=True ,numbers=True , punct=True))
     
     with st.expander('Analyze CSV'):
         upl = st.file_uploader('Upload file')
