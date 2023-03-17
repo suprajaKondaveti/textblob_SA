@@ -16,7 +16,7 @@ sw=nltk.corpus.stopwords.words("english")
 rad=st.sidebar.radio("Navigation",["Home","Sentiment Analysis","Results"])
 if rad=="Home":
     st.title("SENTIMENT ANALYSIS")
-    st.image("SAA.jpg", width=1000, height=1500)
+    st.image("SAA.jpg")
     
     st.text(" ")
     st.text("Sentiment analysis, also referred to as opinion mining, is an approach")
