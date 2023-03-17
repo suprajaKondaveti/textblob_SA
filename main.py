@@ -89,9 +89,8 @@ if rad=="Sentiment Analysis":
                 mime='text/csv',
             )
 if rad=="Results":
-    st.title("SENTIMENT ANALYSIS ON ChatGPT Tweets")
+    st.title("SENTIMENT ANALYSIS ON ChatGPT TWEETS")
     st.image("SAA1.jpg")
-    st.text(" ")
     st.text(" ")
     st.text(" ")
     st.text(" ")
